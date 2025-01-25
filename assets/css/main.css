@@ -1,6 +1,11 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
+@font-face {
+	font-family: 'next_art';
+	src: url('fonts/NEXT_ART_Bold.otf') format("opentype");
+}
+
 /*
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
@@ -99,11 +104,7 @@ input, select, textarea {
 	}
 
 	body {
-	/*	background-color: #935d8c;
-		background-image: url("images/cnfpc_header_picture_waves.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+	/*	background-color: #935d8c; */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,21 +121,21 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #353132;
+		background-color: #231F20;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
-		font-weight: 300;
+		font-weight: 380;
 		line-height: 1.65;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 16pt;
 			}
 
 		}
@@ -142,7 +143,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -150,7 +151,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -170,7 +171,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 450;
 	}
 
 	em, i {
@@ -194,7 +195,8 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+
+		font-weight: 380;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
@@ -206,6 +208,7 @@ input, select, textarea {
 		}
 
 	h1 {
+		font-family: 'next_art';
 		font-size: 2.5em;
 		line-height: 1.2;
 	}
@@ -1843,7 +1846,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 300;
+		font-weight: 380;
 		height: 2.75em;
 		line-height: 2.75em;
 		min-width: 9.25em;
@@ -1957,7 +1960,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
+			background-color: #00679f;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -1967,7 +1970,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9acff2;
+				background-color: #00679f;
 			}
 
 			input[type="submit"].primary:active,
@@ -1975,7 +1978,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7ec3ee;
+				background-color: #00679f;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -1995,7 +1998,7 @@ input, select, textarea {
 	label {
 		display: block;
 		font-size: 0.9em;
-		font-weight: 400;
+		font-weight: 420;
 		margin: 0 0 1em 0;
 	}
 
@@ -2074,7 +2077,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-weight: 300;
+			font-weight: 380;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
 			position: relative;
@@ -2252,7 +2255,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 5 Brands','Font Awesome 5 Free';
 		}
 
 		.icon.major {
@@ -2291,23 +2294,23 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #006797;
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #8dc63f;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #231f20;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #78c8f0;
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #8dc63f;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2457,7 +2460,7 @@ input, select, textarea {
 
 		dl dt {
 			display: block;
-			font-weight: 400;
+			font-weight: 420;
 			margin: 0 0 1em 0;
 		}
 
@@ -2729,7 +2732,7 @@ input, select, textarea {
 
 		table th {
 			font-size: 0.9em;
-			font-weight: 400;
+			font-weight: 420;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
@@ -2908,7 +2911,7 @@ input, select, textarea {
 				font-size: 2em;
 				line-height: 1.1;
 				color: inherit !important;
-				font-weight: 300;
+				font-weight: 380;
 				letter-spacing: -0.025em;
 			}
 
@@ -3221,7 +3224,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: rgba(0, 103, 159, 0.1);
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3293,7 +3296,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: rgba(141, 198, 63, 0.45);
 					}
 
 					#nav ul li a.active {
@@ -3329,6 +3332,32 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
+		}
+
+		#nav2 {
+		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+		background-color: #ffffff;
+		color: #636363;
+		position: absolute;
+		width: 64em;
+		max-width: calc(100% - 4em);
+		padding: 1em;
+		background-color: rgba(0, 103, 159, 0.1);
+		border-top-left-radius: 0.25em;
+		border-top-right-radius: 0.25em;
+		cursor: default;
+		text-align: center;
+
+		position: sticky;
+		top: 0;
+		padding: 0.5em 1em;
+		background-color: rgba(247, 247, 247, 0.95);
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		z-index: 10000;
 		}
 
 /* Main */
@@ -3387,7 +3416,7 @@ input, select, textarea {
 			#main input[type="button"]:hover,
 			#main button:hover,
 			#main .button:hover {
-				background-color: rgba(222, 222, 222, 0.25);
+				background-color: rgba(141, 198, 63, 0.45);
 			}
 
 			#main input[type="submit"]:active,
@@ -3395,7 +3424,7 @@ input, select, textarea {
 			#main input[type="button"]:active,
 			#main button:active,
 			#main .button:active {
-				background-color: rgba(222, 222, 222, 0.5);
+				background-color: #00679f;
 			}
 
 			#main input[type="submit"].icon:before,
@@ -3403,7 +3432,7 @@ input, select, textarea {
 			#main input[type="button"].icon:before,
 			#main button.icon:before,
 			#main .button.icon:before {
-				color: rgba(99, 99, 99, 0.25);
+				color: rgba(141, 198, 63, 0.45);;
 			}
 
 			#main input[type="submit"].primary,
@@ -3411,7 +3440,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #00679f;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3421,7 +3450,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #9acff2;
+					background-color: rgba(141, 198, 63, 0.45);
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3429,7 +3458,7 @@ input, select, textarea {
 				#main input[type="button"].primary:active,
 				#main button.primary:active,
 				#main .button.primary:active {
-					background-color: #7ec3ee;
+					background-color: rgba(141, 198, 63, 0.45);
 				}
 
 				#main input[type="submit"].primary.icon:before,
@@ -3783,3 +3812,21 @@ input, select, textarea {
 			}
 
 		}
+
+/* Showcase */
+	.showcase{
+		display: flex;
+		align-items: center;
+		justify-content: center
+	}
+
+		.showcase img {
+			max-width: 100%;
+			max-height:100%;
+			float: left;
+		}
+		.showcase.text {
+			padding-left: 20px;
+			float: left;
+		}
+

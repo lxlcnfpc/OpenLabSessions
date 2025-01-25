@@ -5,7 +5,7 @@ Welcome to the GitHub repository for the CNFPC Open Lab Sessions website. This r
 ## About
 
 This website serves as a hub for our makerspace community, featuring event dates, project showcases, and educational resources. Visit us at [edulink.lu/lab0](https://edulink.lu/lab0)
-Please note that our open lab sessions are currently restricted to employees od the CNFPC and students enrolled in courses at our institution.
+Please note that our open lab sessions are currently restricted to employees of the CNFPC and students enrolled in courses at our institution.
 
 ## Contributing
 
